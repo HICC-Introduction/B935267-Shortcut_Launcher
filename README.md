@@ -2,8 +2,7 @@
 
 
 # 과제 내용
-
-**1단계**
+##1단계
 
 * 요약
     * 단축키 프로그램
@@ -23,3 +22,36 @@
  * 기본적으로 UI는 버튼만 한정
  * 윈도우 운영체제 작동(리눅스 유닉스 등은 고려하지 않음)
  * 윈도우의 크기는 가로 800, 세로 200으로 고정한다.
+
+
+# 개발 사양
+## 하드웨어
+* CPU : Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz (8코어 Intel Core i9)
+* RAM : 16.0GB
+* SSD: 499.96GB
+* GPU : Intel UHD Graphics 630 1536 MB
+
+## 소프트웨어
+* OS : Mac OS Catalina
+* 개발 스택 : Python
+* 개발 프로그램 : REPL
+* 개발 언어 : Python v3.8.2
+
+## 코드룰
+   예시
+    #변수명
+    test_variable = 1
+
+    #클래스명
+    class test_class:
+        def __init__(self):
+            #프로퍼티명
+            self.test_property = 1
+
+        #메소드명
+        def test_method(self):
+            print(self.test_property)
+
+    if __name__ == "__main__":
+        test_variable = test_class(2)
+        test_variable.test_method()
