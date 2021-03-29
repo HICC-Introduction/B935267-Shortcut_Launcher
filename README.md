@@ -34,8 +34,8 @@
 
 ## 소프트웨어
 * OS : Mac OS Catalina
-* 개발 스택 : TKinter
-   (선정 이유: 아직 python 자체에 익숙하지 않아 개발 스택으로는 더 단순하고 직관적인 TKinter선정)
+* 개발 스택 : TKinter 
+   * (선정 이유: 아직 python 자체에 익숙하지 않아 개발 스택으로는 더 단순하고 직관적인 TKinter선정)
 * 개발 프로그램 : REPL
 * 개발 언어 : Python v3.8.2
 
