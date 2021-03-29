@@ -1,9 +1,7 @@
 # B935267-Shortcut_Launcher
-================
 
-# git_practice
 
- ## 과제 내용
+# 과제 내용
 
 **1단계**
 
