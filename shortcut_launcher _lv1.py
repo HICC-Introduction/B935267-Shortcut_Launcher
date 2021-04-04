@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-import tkinter
-import webbrowser
-import os
-import subprocess
 shortcut_launcher=tkinter.Tk()
 
 shortcut_launcher.title("Shortcut launcher")
 shortcut_launcher.geometry("800x200+100+100")
-shortcut_launcher.resizable(True, True)
-shortcut_launcher.maxsize(width=480, height=300)
-shortcut_launcher.minsize(width=100, height=50)
+shortcut_launcher.resizable(False, False)
 #window setting
 
 imgNote = tkinter.PhotoImage(file="Notes.png")
@@ -21,8 +14,7 @@ imgGoogle = tkinter.PhotoImage(file="google.png")
 def notepad():
     # notepad = "Notes.app"
     # notepad
-    os.system('open /Applications/Notes.app')
-    #subprocess.run('/Applications/Notes.app', shell =True)
+    os.system("open /Applications/Notes.app")
     
 def calc():
     os.system('open /Applications/Calculator.app')
@@ -65,3 +57,4 @@ btn8.place(x = 350, y = 110)
 
 
 shortcut_launcher.mainloop()
+
