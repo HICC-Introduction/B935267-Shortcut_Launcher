@@ -55,6 +55,5 @@ btn7.place(x = 250, y = 110)
 btn8.place(x = 350, y = 110)
 #button place
 
-
 shortcut_launcher.mainloop()
 
